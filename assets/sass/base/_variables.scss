@@ -1,0 +1,24 @@
+/* googleFont */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Gloss And Bloom Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gloss And Bloom Regular'), url('./../webfonts/Gloss_And_Bloom.woff') format('woff');
+    }
+
+
+
+
+/* Font */
+
+$base-font-family: 'Nunito Sans', sans-serif;
+$sec-font-family:  'Gloss And Bloom Regular', sans-serif;
+
+//  Main Colors
+
+$base-color : #000000;
+$yellow :#FFED00;
+$darkgray: #7C7C7C;
+$gray: #A8A8A8;
+$lightgray: #E4E4E4

@@ -1,0 +1,534 @@
+@media only screen and (min-width: 1250px) {
+  html {
+    font-size: 16px;
+  }
+  .container {
+    width: 1250px;
+  }
+  .modal.modal-vcenter .modal-dialog {
+    min-width: 400px;
+    max-width: 75%;
+  }
+  .modal.modal-vcenter#DownloadModal, .modal.modal-vcenter#contactModel {
+    .modal-dialog {
+      max-width: 600px;
+    }
+  }
+  .modal.modal-vcenter#teamModel .modal-dialog {
+    max-width: 80%; 
+    .modal-content {
+      border-radius:0;
+      -webkit-border-radius:0;
+      -moz-border-radius:0;
+      -ms-border-radius:0;
+      -o-border-radius:0;
+      border:0;
+    }
+  }
+
+  .borderright {
+    
+    &::before {
+      position:absolute;
+      width: 1px;
+      height: 90%;
+      right:40px;
+      background-color: rgba(250,250,250,.3);
+      content: '';
+      bottom: 0;
+
+    }
+  }
+
+  .careersdetails {
+    &::before {
+      content: '';
+      background: black;
+      width: 30%;
+      height: 100%;
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+
+}
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .home-slider .item.slide .slideTitle {
+    font-size: 2.25rem;
+  }
+  html {
+    font-size: 14px;
+  }
+  .w-50 {
+    width:100% !important;
+  }
+  footer .newsletter-block .redblock p {    
+    margin-bottom: 2rem;
+  }
+  .social-icon-div {
+    text-align: center !important;
+    margin-top: 20px;
+  }
+  .knowMore h4 {
+    text-align: center !important;    
+  }
+  .about {
+    padding-top: 0;
+  }
+  footer .newsletter-block .redblock {
+      padding: 2rem;
+      h2 {    
+        font-size: 1.4rem;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 29px;
+        margin-bottom: 10px;
+      }
+    } 
+    footer .footer-container {
+      padding: 15px;
+    }
+    footer .footerbottom.border-top {
+      border-top: 0 !important;
+    }
+    .ourteam.team2 {
+      padding-bottom: 0 !important;
+    }
+    .ourteam.team2::before {
+      width: 100%;
+    }
+    .tabs li.nav-item a.nav-link.active, .tabs li.nav-item a {
+      padding: 2rem 1rem;
+    }
+    .ourteam.team2 .owl-nav .owl-next {
+      margin-left: 30px;
+    }
+    .video-overlay iframe {
+      width: 90%;
+      height: 40%;
+    }
+    .vacancies .formContainer h2, .contact .formContainer h2, .modal .formContainer h2 {
+      font-size: 2rem;
+    }
+    .title.business {
+      ul.nav {
+        overflow-y: auto;
+        white-space: nowrap;
+        height: 64px;
+        width: 100%;
+        display: block;
+      }
+      h1 {
+        line-height: 44px;
+        font-size: 2.6rem;
+      }
+      .nav .nav-item {
+        display: inline-block;
+      }
+    }
+    header #navbarNav ul.navbar-nav .dropdown-menu a {
+      width: 100%;
+    }
+    header #navbarNav ul li a {
+      border-bottom: 1px #ccc solid;
+    }
+    .dropdown-toggle::after {
+      float: right;
+      margin-top: 27px;
+    }
+    .Job_description .formContainer {
+      width: 100%;
+      float: right;
+    }
+    .vacancies {
+      .caption {
+        padding-top: 3rem;
+      }
+    }
+    .explore_opportunity .labslist {
+      li {
+        .details.text-right {
+            text-align: left!important;
+        }
+      }
+    }
+    #Certificates {
+      .col {
+        margin-bottom: 2rem;
+      }
+    }
+    .accreditations .owl-nav .owl-prev {
+      margin-right: 30px;
+    }
+    .accreditations .owl-nav .owl-next {
+      margin-left: 30px;
+    }
+    section.socialmedia {
+        h2 {
+          font-size: 2rem;
+        }
+    }
+    .latest_news {
+      .card {
+        h6 {
+          line-height: 25px;
+        }
+      }
+    }
+    .case_study .newsCaption-title, .case_study.four-block .newsCaption-title {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    section.about {
+      padding-top: 3rem;
+    }
+    section.textBlock {
+      h2 {
+          margin-top: 2rem!important;
+      }
+    }
+    .case_study.four-block .newsCaption {
+          padding: 1.7rem 3rem;
+    }
+    .tabs-enquire .col-md-4 .captions {
+      margin-left: 0;
+    }
+    .tabs-enquire .blue-bg {
+        padding-bottom: 0;
+        background-image:none;
+    }
+    .tabs-enquire .tab-pane .content {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .tabs-enquire .enquire .formContainer {
+      top: 0;
+    }
+
+    header .topnav {
+      padding: .4rem 0;
+      .col-md-12 {
+        padding-right: 0;
+        padding-left: 0;
+      }
+      ul {
+        margin-right: 0px;
+        li {
+            margin: 0 0px;
+            a {
+              text-align: left;
+              padding: .5rem 1rem;
+            }
+        }
+      }
+      .social-icon-div a {
+          font-size: 1.5rem;
+          display: inline-block;
+          margin:0 15px
+      }
+      .dropdown-toggle::after {
+        
+      }
+    }
+    section {
+      overflow: hidden;
+    }
+    .fixedbar a.navbar-brand  {
+      padding: 15px 15px;
+    }
+    .w-75 {
+      width: 100% !important;
+    }
+    .p-5 {
+      padding: 2rem !important;
+    }
+    .imgContainer {
+        margin-top: 1rem;
+        .col-md-6 {
+          margin-bottom: 1rem;
+        }
+    }
+    .initiatives {
+      .captions {
+        margin-bottom: 1rem;
+      }
+    }
+    .aboutNolte {
+      .col-md-6 {
+        margin-bottom: 2rem;
+      }
+    }
+    .home-slider {
+      .item.slide {
+        height: 70% !important;
+        padding: 30px 20px;
+      }
+      &::after {
+        display:none;
+      }
+    }
+    .home-slider .item.slide {
+      .offerblock {
+        display: none;
+      }
+    
+      .slideTitle {
+          margin-bottom: 20px;
+
+      }
+    }
+    .Works .contnentContainer, .promotions .contnentContainer {
+          top: 30%;
+    }
+    .latestWorks .owl-next, .latestWorks .owl-prev {
+        top: 40%;
+    }
+    section.latest_works .Works .box14 .title {
+        bottom: -30px;
+    }
+    .wtsnews, section.ourclients, section.testimonials #testimonials, .brochures, .benefits  {
+      .owl-nav .owl-prev, .carousel-control-prev {
+        left: 10px;
+      }
+      .owl-nav .owl-next, .carousel-control-next {
+        right: 10px;
+      }
+    }
+    #testimonials .carousel-indicators {
+        margin: 40px 0 0;
+        li {
+          display: inline-block;
+        }
+    }
+    header .topnav .social-icon-div {
+        margin-left:0;
+    }
+    .darkMap .map {
+      background-color: black;
+      height: 420px;
+      img {
+        height: 100%;
+        width: auto;
+        max-width: fit-content;
+      }
+    }
+    .callus {
+        width: 60px;
+    }
+    .imgContainer {
+      overflow: hidden;
+    }
+    .media.why {
+      display: block;
+      text-align: center;
+      img {
+        margin: 0 !important;
+        // width: 120px;
+        padding-bottom: 1rem;
+        display: inline-block;
+      }
+    }
+    .join-login {
+
+      .col-md-3 {
+        text-align: center;
+        .black-button {          
+          display: inline-block;
+          margin: 0 auto;
+        }
+      }
+    }
+    section.join-login .join .whitebg, section.join-login .partner .whitebg {
+      box-shadow:none;
+    }
+    section.join-login .join, section.join-login .partner {
+      margin: 0;
+    }
+    section.banner .inner-title.breadcrumb2.w-100.pr-5.pl-5.pt-3.pb-3 {
+      padding-left:0 !important;
+      padding-right: 0 !important;
+    }
+    .joinus .col-md-6 {
+      padding-left: 3rem !important;
+      padding-right: 3rem !important;
+      .relative {
+        padding-left:0 !important;
+        padding-right: 0 !important;
+ 
+      }
+    }
+    .form {
+      .formContainer {
+        padding: 0 !important;
+        form {
+          .row {
+            .col-md-6 {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+          }
+        }
+      }
+    }
+
+    .processContainer {
+      .col-md-6 {
+        margin-bottom: 2rem;
+      }
+    }
+    .statistics {
+      .col-md-3 {
+        margin-bottom: 2rem;
+      }
+    }
+}
+
+@media only screen and (min-width: 1450px) {
+    .promotions .contnentContainer {
+      top: 30%;
+    }
+    .Works .contnentContainer {
+      top: 40%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+  
+  .home-slider .item.slide .black-bg {
+    padding-right:0 !important;
+    padding-left:0 !important;
+    padding-top:1.3rem !important;
+    padding-bottom:1.3rem !important;
+    flex: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  .home-slider .item.slide .black-bg h3[data-label]::after {
+    right: 35%;
+  }
+  .home-slider .item.slide .slideTitle {
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  
+}
+
+@media only screen and (max-width: 992px) {
+  header #navbarNav {
+    // width: 100%;
+    background: #f3f3f3;
+    z-index: 999;
+    // position: absolute;
+    left: 0px;
+    height: auto;
+    // top: 100%;
+    transition: 1s;
+  }
+  header #navbarNav ul {
+    height: auto;
+    width: 100%;
+  }
+  header #navbarNav ul li {
+    width: 100%;
+  }
+  .brouchures .col-md-6:last-child {
+    padding:2rem !important ;
+  }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .home-slider .item.slide .slideTitle {
+    font-size: 2.25rem;
+  }
+  .home-slider::after {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .tabs-enquire .blue-bg {
+    padding-bottom: 2rem;
+    background-image:none;
+  }
+
+  .banner {
+    background-position: center center !important;
+  }
+  .testimonials {
+    h2 {
+      margin-bottom:2rem;
+    }
+    .carousel-item {
+      .col-md-8  {
+         order: 2; 
+         margin-top: 1rem;
+      }
+      .col-md-4  {
+        order: 1; 
+     }
+    }
+     #quote-carousel {
+      
+      ol.carousel-indicators {
+        margin-left: 0;
+        
+        li, li.active {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+   
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.carousel-title {
+	  font-size: 18px;
+	  margin-top: 20px;
+	}
+  
+	#carouselExample {
+	  .blockquote {
+		font-size: 15px;
+		text-align: center;
+		margin: 20px 0;
+	  }
+  
+	  small {
+		text-align: center;
+		display: block;
+	  }
+  
+	  .carousel-indicators li {
+		margin-left: 8px;
+		margin-right: 8px;
+  
+		&.active img {
+		  transform: scale(1.2);
+		}
+	  }
+	}
+  }
+  
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .imgContainer {    
+    margin-top: -4rem;
+  }
+}
