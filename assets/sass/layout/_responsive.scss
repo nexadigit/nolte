@@ -495,6 +495,25 @@
     }
    
   }
+  .projectDetails {
+    .pl-5, .pr-5 {
+      padding: 0 !important;
+    }
+    .col-md-7.pr-0 {		
+      padding-right: 15px !important;
+      .p-5 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+      }
+      .owl-nav .owl-prev {
+        left: 10px;
+      }
+      .owl-nav .owl-next {
+        right:10px;
+      }
+    }
+  }
+  
 }
 
 
@@ -527,8 +546,10 @@
 	}
   }
   
-@media only screen and (min-width: 768px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 768px) { 
   .imgContainer {    
     margin-top: -4rem;
   }
 }
+
+
